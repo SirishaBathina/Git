@@ -14,3 +14,5 @@ git checkout -b main    =======>to create a new branch
 git checkout -b feature =====>to create new branch
 git checkout feature
 git merge feature           ==============To merge the branch
+git remote add origin https://github.com/SirishaBathina/application.git      =======>To add the code to remote repository
+git push -u origin main              ======To push the code to remote repo
