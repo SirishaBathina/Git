@@ -4,3 +4,9 @@ git config --global user.email "devops.bathinasirisha@gmail.com"
 git add .          ==============>add all files
 git status 
 git commit -m "This is initial commit"
+git add FileA.txt      ===========>To modified particular file to add
+git commit -m "Change made in FileA"
+git checkout commit id(prev commit)     ======>to checkout previous commit 
+git log
+git checkout commitid(new Commit)
+git log --all              ======================>To see all commits
