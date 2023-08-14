@@ -19,3 +19,4 @@ git push -u origin main              ======To push the code to remote repo
 git tag -a "v1.0" -m "this is version 1"     ====To tag which is imp
 git tag
 git tag show v1.0     =====To show available commited tags
+git ignore
