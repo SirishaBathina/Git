@@ -10,3 +10,7 @@ git checkout commit id(prev commit)     ======>to checkout previous commit
 git log
 git checkout commitid(new Commit)
 git log --all              ======================>To see all commits
+git checkout -b main    =======>to create a new branch
+git checkout -b feature =====>to create new branch
+git checkout feature
+git merge feature           ==============To merge the branch
