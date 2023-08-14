@@ -1,3 +1,6 @@
-git init                to intilize the repo
+git init                  ===============>  to intilize the repo
 git config --global user.name "SirishaBathina"
 git config --global email.name "devops.bathinasirisha@gmail.com"
+git add .          ==============>add all files
+git status 
+git commit -m "This is initial commit"
