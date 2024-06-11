@@ -1,9 +1,15 @@
 git init                  ===============>  to intilize the repo
+
 git config --global user.name "SirishaBathina"
 git config --global user.email "devops.bathinasirisha@gmail.com"
+
+git clone https://github.com/SirishaBathina/Sample.git
+
 git add .          ==============>add all files
+
 git status 
 git commit -m "This is initial commit"
+
 git add FileA.txt      ===========>To modified particular file to add
 git commit -m "Change made in FileA"
 git checkout commit id(prev commit)     ======>to checkout previous commit 
