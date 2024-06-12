@@ -44,6 +44,9 @@ git log
 git commit -m "dev commits" dev1 dev2  ======dev1,dev2 only commited
 git checkout -b main    =======>to create a new main  branch and switch to that branch
 git checkout -b feature =====>to create new feature branch
+git branch -m feature bug   ========>to rename branch oldname newname
+ git branch -D bug        =========>to delete the branch
+switch to another branch then only delete possible
 git checkout commit id(prev commit)     ======>to checkout previous commit 
 git log
 git checkout commitid(new Commit)
