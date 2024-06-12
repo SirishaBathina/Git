@@ -47,6 +47,7 @@ git checkout -b feature =====>to create new feature branch
 git branch -m feature bug   ========>to rename branch oldname newname
  git branch -D bug        =========>to delete the branch
 switch to another branch then only delete possible
+git merge feature    in dev lo em iethe files vunnayo avi anni feature lo ki vasthayi
 git checkout commit id(prev commit)     ======>to checkout previous commit 
 git log
 git checkout commitid(new Commit)
