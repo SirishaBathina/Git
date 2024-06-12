@@ -34,21 +34,30 @@ harshu1
 harshu2
 those files willbe there but not added not commited
 ****************************************************************************************
-git clone https://github.com/SirishaBathina/Sample.git
-
-git add .          ==============>add all files
-
-git status 
-git commit -m "This is initial commit"
-
-git add FileA.txt      ===========>To modified particular file to add
-git commit -m "Change made in FileA"
+git branch ===show branch list
+git branch dev ====(dev branch created)
+git checkout dev  =====to swtich to dev branch
+touch dev{1..4}
+git add dev*
+git commit -m "dev commits" dev*
+git log
+git commit -m "dev commits" dev1 dev2  ======dev1,dev2 only commited
+git checkout -b main    =======>to create a new main  branch and switch to that branch
+git checkout -b feature =====>to create new feature branch
 git checkout commit id(prev commit)     ======>to checkout previous commit 
 git log
 git checkout commitid(new Commit)
+**************************************************************************************************
+Suppose unfortunately some files deleted we can restore by using
+git restore siri*
+touch hello
+git add hello 
+ i want to get back the hello changes
+git restore --staged hello   =====we can get back the changes
+git status
+*******************************************************************************************************
 git log --all              ======================>To see all commits
-git checkout -b main    =======>to create a new branch
-git checkout -b feature =====>to create new branch
+
 git checkout feature
 git merge feature           ==============To merge the branch
 git remote add origin https://github.com/SirishaBathina/application.git      =======>To add the code to remote repository
