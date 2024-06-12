@@ -1,7 +1,14 @@
 apt update
 apt-get install git -y
 git init .                  ===============>  to intilize the local repo
-***************************************************************************
+*********************************************************************************
+passwrad less authentication
+vi .netrc
+aadd thers lines
+machine github.com
+login devops.bathinasirisha@gmail.com
+password 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
+***********************************************************************************
 To create a file and add the files
 touch f1
 vi f1
