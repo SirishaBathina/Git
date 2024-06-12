@@ -1,0 +1,5 @@
+git init .
+git add file1
+git commit -m "file1 created" file1
+git remote add origin https://github.com/SirishaBathina/Siri.git
+git push -u origin master  
