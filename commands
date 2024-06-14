@@ -17,7 +17,7 @@ git status
 git commit -m "file created"f1
 git log
 *************************************************************************************
-congiguration of user
+##congiguration of user
 git config --global user.name "SirishaBathina"
 git config --global user.email "devops.bathinasirisha@gmail.com"
 touch f2
@@ -26,7 +26,7 @@ git add f2
 git commit -m "file2"f2
 git log 
 ***************************************************************************************
-Muiltiple files to create
+###Muiltiple files to create
 touch siri{1..4}
 git status
 git add siri*
@@ -35,6 +35,11 @@ git restore --staged siri1  <(filename)>
 git restore --staged .
 git commit -m "files to be commited"siri*
 *****************************************************************************************
+##To create an empty branch 
+git switch --orphan my_empty_branch
+git commit --allow-empty -m "intial empty commit and push"
+git push -u origin  my_empty_branch
+****************************************************************************************
 I want to create files but it is not to be add and commit
 we can go for vi .gitignore
 harshu1
